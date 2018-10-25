@@ -14,7 +14,7 @@ using namespace std;
 // }
 
 
-set<char> delimiters = {' ' ,'+' ,'-' ,'*' ,'/' ,',' ,';' ,'>' ,'<' ,'=', '(' ,')' ,'[' ,']' ,'{' ,'}' };
+set<char> delimiters = {' ' ,'+' ,'-' ,'*' ,'/' ,',' ,';' ,'>' ,'<' ,'=', '(' ,')' ,'[' ,']' ,'{' ,'}' ,'\t'};
 set<char> operators= {'+', '-', '*', '/', '>' ,'<' ,'=' ,'&' ,'|' ,'^' };
 set<char> integers= {'0','1','2','3','4','5','6','7','8','9'};
 set<string> keywords={"if", "else", "while", "do", "break", "continue", "int", "double","float" ,"return" ,"char" ,"case" ,"char" ,"sizeof" ,"long" ,"short" ,"typedef" ,"switch" ,"unsigned" ,"void" ,"static" ,"struct", "goto" };
